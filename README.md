@@ -1,4 +1,2 @@
 # sample_angular
-work flow test
-
-Foo.
+work flow test to verify learnings

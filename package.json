@@ -1,0 +1,15 @@
+{
+  "name": "sample angular",
+  "version": "0.0.1",
+  "description": "Sample to verify learnings from lynda.com course",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binary6is110/sample_angular"
+  },
+  "author": "Kim Adams",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^2.2.20",
+    "gulp-webserver": "^0.8.1"
+  }
+}
