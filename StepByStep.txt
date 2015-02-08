@@ -1,0 +1,36 @@
+Add Angular js files: angular, route(+map), animate(+map)
+
+Include ng-app in html wrapper- indicates which regions will use Angular
+
+Instant model/view data binding example
+	Indicate model property name with 'ng-model="property_name"''  & then reference value set using {{property_name}}
+	 <main class="cf">
+		<h1>Hello {{name}}</h1>
+		<input ng-model="name" placeholder="Enter your name">  
+	 </main>
+
+ng-include directive:
+The browser same domain policy and cross origin resource sharing may restrict whether the template can be loaded. You need to run this on a server. For this to run locally, gulp needed.
+
+ <ng-include> or <ANY ng-include=""/>
+
+ Arguments: src attribute- evaluates to URL, pagename in quotations, double outside, single inside
+	<nav class="cf" ng-include="'views/nav.html">
+
+ <li><a href=""></li>
+ <li><a ng-href=""></li>
+
+Module= container for different parts of an app. create a module then work on pieces that control what the app will do. 
+<html lang="en" ng-app="sampleApp">
+
+angular.module -> container for other things
+but it a name/namespace. use name to add functionalityt o app
+app.js
+var myApp=angular.module('sampleApp',['ngRoute','appControllers']);
+
+myApp=> namespace
+sampleApp=> passed from index.html
+
+routeProvider- specify paths that control what you see on a page
+
+

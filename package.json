@@ -1,10 +1,10 @@
 {
-  "name": "sample angular",
+  "name": "sample_angular",
   "version": "0.0.1",
   "description": "Sample to verify learnings from lynda.com course",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binary6is110/sample_angular"
+    "url": "https://github.com/binary6is110/sample_angular.git"
   },
   "author": "Kim Adams",
   "devDependencies": {
